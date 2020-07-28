@@ -10024,7 +10024,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 #mainNav {
@@ -10090,23 +10090,29 @@ hr.light {
   }
 }
 #myVideo {
-
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+  width: 100%     !important;
+  height: 100%   !important;
+  z-index: -1;
 }
+
+/*@media (max-width: 500px) {*/
+/*  #myVideo {*/
+/*    width: 500px;*/
+/*  }*/
+/*}*/
 
 header.masthead {
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 4.5rem);
+  padding-bottom: calc(4rem - 2.5rem);
   /*background: linear-gradient(to top, rgba(170, 88, 61, 0.51) 0%, rgba(70, 42, 38, 0.75) 90%), url("../img/q3.jpg");*/
-  background-position: center;
+  /*background-position: center;*/
   background-repeat: no-repeat;
   background-attachment: scroll;
-
-  /*background-size: cover;*/
+  background-size: cover;
 }
 header.masthead h1 {
   font-size: 2.25rem;
@@ -10114,10 +10120,11 @@ header.masthead h1 {
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
-    min-height: 40rem;
+    min-height: 60rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
+
   header.masthead p {
     font-size: 1.15rem;
   }
