@@ -10089,7 +10089,8 @@ hr.light {
     color: #f4623a;
   }
 }
-#myVideo {
+
+#myvideo {
   position: absolute;
   position: fixed;
   right: 0;
@@ -10100,6 +10101,15 @@ hr.light {
   object-fit: cover;
   z-index: -1;
 }
+/*#myVideo {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  bottom: 0;*/
+/*  object-fit: cover;*/
+/*  width: 100% !important;*/
+/*  height: 100% !important;*/
+/*  z-index: -1;*/
+/*}*/
 
 /*@media (max-width: 500px) {*/
 /*  #myVideo {*/
