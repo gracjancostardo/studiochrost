@@ -10091,11 +10091,13 @@ hr.light {
 }
 #myVideo {
   position: absolute;
-  top: 0;
+  position: fixed;
+  right: 0;
   bottom: 0;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100%;
   object-fit: cover;
-  width: 100% !important;
-  height: 100% !important;
   z-index: -1;
 }
 
