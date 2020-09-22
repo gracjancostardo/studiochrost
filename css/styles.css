@@ -10193,6 +10193,10 @@ header.masthead h1 {
 .cennik-section {
   background-color: #fff;
 }
+#oferta {
+  color: #343a40;
+  padding-bottom: 5%;
+}
 
 /*#onas {*/
 /*  color: #fff !important;*/
